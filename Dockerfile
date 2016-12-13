@@ -16,6 +16,6 @@ CMD trac-admin /opt/SampleProject1 initenv
 CMD tracd --port 8043 /opt/SampleProject1
 
 EXPOSE 8044
-#docker run -d -p 8044:8043 <containerid>
-#
-#
+#docker run -d -p 8044:8043 imageid
+#localhost:8044
+
